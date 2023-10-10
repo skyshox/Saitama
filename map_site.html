@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="style.css" rel="stylesheet"/>
+	<title>Карта</title>
+</head>
+<body>
+<div class="golova_saita";>
+<a href="index.html"><img style="height: 80px;" src="img/logo.png" alt="Логотип"></a>
+	<nav class="nav_header">
+		<div class="dropdown">
+			<a href="index.html" class="dropbtn">Главная</a>
+			<div class="dropdown-content">
+				<a href="https://vk.com/public220916712">Наши новости</a>
+				<a href="https://vk.me/join/BUqohHnrp0msyHatfXyRU42ER50JyCj7G6Y=">Отзывы</a>
+			</div>
+		</div>
+		<a href="#ab" class="dropbtn">О нас</a>
+		<a href="#cont" class="dropbtn">Контакты</a>
+		<a href="kat.html" class="dropbtn">Каталог</a>
+		<a href="map_site.html" class="dropbtn">Карта сайта</a>
+	</nav>
+</div>
+<div class="header">
+	<hr>
+		<center>Ориентир Недвижимость</center>
+	<hr>
+</div>
+<div style="height: 800px" class="osnovnaya_stranica";>
+	<div id="ab" style="background: black;
+	margin: -8px; padding: 300px; padding-top: 10px;
+    padding-bottom: 100px; margin-top: 0px;">
+		<div>
+			<hr>
+			<p><center style="font-size: 18px; color: white">НАШИ ДАННЫЕ</p>
+			<p>Офис находится на 3 этаже торгового центра
+			<p>Выходите со 2 выхода с метро, поворачиваете направо, видите ТРЦ заходите и по эскалатору на 2 этаж.
+			<p>Телефон +79999999999
+			<p>E-mail: pupupumaxis@pupup
+			<p>Адрес:Багратионовский пр., 5
+			<p>
+			<p>Режим работ
+			<p>Пн-Вс 9:00-23:00
+			</center>
+			<hr>
+		</div>
+		<div>
+			<center>
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac0acd4eb2d4336e34786bfe6ec7071fb3af6bcf4e9fb68ebce7bf162f5ee10e3&amp;width=80%&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+			</center>
+		</div>
+	</div>
+</div>
+<div>
+	<a href="#" style="height: 100px; margin-left: 90%;" class="scroll-to-top">
+		<img style="height: 100px;" src="img/strelochka.png">
+	  <i class="fas fa-arrow-up"></i>
+	</a>
+	<hr>
+</div>
+<div class="niz_saita">
+	<footer class="fot" id="cont">
+		<div class="foter_header">
+			<div class="nav_cans_1">
+				<a class="p_cans_o">Телефон:</a>				
+					<li class="ph">Администратор: (+799999999)</li>
+					<li class="ph">Директор: (+7999999999)</li>
+					<li class="ph">Менеджер: (+7999999999)</li>
+			</div>
+			<div class="nav_cans_2">
+				<a href="https://t.me/StyopaKH" class="p_cans_o">Телеграмм</a>
+				<a href="https://vk.com/doski_desalmado" class="p_cans_o">ВК</a>
+				<a href="" class="p_cans_o">Остоваяся на связи</a>
+			</div>
+		</div>
+	</footer>
+</div>
+
+
+<script>
+window.addEventListener('scroll', function() {
+  const scrollButton = document.querySelector('.scroll-to-top');
+  
+  if (window.pageYOffset > 200) {
+    scrollButton.classList.add('show');
+  } else {
+    scrollButton.classList.remove('show');
+  }
+});
+
+document.querySelector('.scroll-to-top').addEventListener('click', function(e) {
+  e.preventDefault();
+  
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+</script>
+</body>
+</html>

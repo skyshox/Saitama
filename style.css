@@ -1,0 +1,131 @@
+.golova_saita{
+	height: 90px;
+	background: black;
+	margin: -8px;
+}
+.header{
+	height: 30px;
+	background: black;
+	margin: -8px;
+	color: white;
+	padding-bottom: 7px;
+}
+.niz_saita{
+	height: 160px;
+	background: black;
+	margin: -8px;
+}
+
+.nav_header{
+	padding-top: 0%;
+    margin-top: -55px;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-left: 150px;
+}
+.nav_cans_1{
+	margin-left: 15%;
+	padding-top: 10px;
+}
+.nav_cans_2{
+	margin-left: 50%;
+	margin-top: -60px;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover {}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {}
+
+.dropbtn {
+	font-size: 120%;
+    color: white;
+    padding: 30px;
+}
+.ph{
+	font-size: 120%;
+    color: white;
+	font-weight: 400;
+	word-wrap: break-word;
+}
+.p_cans_o{
+	font-size: 140%;
+    color: white;
+	margin-right: 5%;
+	margin-top: 10px;
+	font-weight: 400;
+	word-wrap: break-word;
+}
+
+body{
+	background: url(img/fon.jpg) no-repeat center center fixed;
+    background-size: cover;
+	opacity: 90%;
+}
+
+.osnovnaya_stranica{
+	height: 1080px;
+}
+
+.max-img{animation: ani 1.5s forwards;
+		position: absolute;
+		animation-delay: 0.4s;
+		opacity: 0;
+		height: 250px;
+		border-radius: 10px;
+		box-shadow: 0 0 10px #444;
+		background-color: white;
+		margin-top: -320px;
+		max-width: 190px;
+        }
+        @keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  0% {transform: translateY(15%);}
+  /* 100% {transform: translateY(0);} */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  display: none;
+}
+
+.scroll-to-top i {
+  font-size: 20px;
+}
+
+.scroll-to-top.show {
+  display: block;
+}
